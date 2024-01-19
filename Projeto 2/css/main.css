@@ -27,7 +27,7 @@ main {
 }
 
 .redes-sociais ul li {
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -42,7 +42,7 @@ main {
     background-color: #FFFFFF;
     width: 980px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 16px;
 }
 
 .menu {
@@ -69,13 +69,21 @@ main {
 .menu-urls {
     height: 80px;
     border-bottom: 3px solid #efefefef;
-    padding: 16px;
 }
 
 .menu ul li {
     display: inline-block;
     color: #8B8B8B;
     margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
 }
 
 .menu ul li a {
