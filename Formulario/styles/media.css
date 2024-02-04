@@ -15,10 +15,6 @@
     padding: 2px;
     font-size: 10px;
   }
-
-  .send {
-    margin-left: 0.5%;
-  }
 }
 
 @media screen and (min-width: 761px) and (max-width: 1024px) {
@@ -32,7 +28,7 @@
   }
 
   .send {
-    margin-left: 2%;
+    align-self: center;
   }
 }
 
@@ -44,9 +40,5 @@
   input {
     padding: 5px;
     font-size: 12px;
-  }
-
-  .send{
-    margin-left: 1.5%;
   }
 }
