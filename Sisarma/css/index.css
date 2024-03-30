@@ -25,13 +25,10 @@ header{
   z-index: 1000;
 }
 
-ul,li{
+#margin-top{
   display: flex;
   margin-left: 38px;
   margin-right: 25px;
-}
-
-#margin-top{
   margin-top: 12px;
 }
 
@@ -109,23 +106,18 @@ h1{
 h2{
   text-align: center;
   color: #000000;
-  padding: 7%;
+  padding: 5%;
   font-size: 30px;
 }
 
-.container{
+.container-information-one{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
+  justify-content: space-evenly;
 }
 
 .container-information{
-  display: flex;
-  flex-wrap: wrap;
-  width: 21%;
+  width: 20%;
   margin-bottom: 6%;
-  
 }
 
 .information{
@@ -142,6 +134,34 @@ h3{
 }
 
 .topic{
+  display: flex;
+  margin-left: 38px;
+  margin-right: 25px;
+  align-items: center;
   color: #495057;
-  margin-left: 0%;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 10px;
+  column-gap: 30px;
+  /* margin-left: 500px; */
+}
+
+.bloco-1 {
+  /* indiferente: */
+  background-color: #c6d8f0;
+  height: 150px;
+  width: 450px;
+  text-align: justify;
+  font-size: 15px;
+  border-radius: 16px;
 }
