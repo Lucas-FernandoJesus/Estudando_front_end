@@ -1,0 +1,46 @@
+@import url("./reset.css");
+@import url("./media.css");
+
+.head{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #0f0f0f;
+}
+#logo-youtube{
+  width: 3%;
+}
+
+#menu-youtube{
+  width: 2%;
+  padding: 12px;
+}
+.head p{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.youtube-search{
+  width: 40%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-left: 15%;
+  border: 1px solid #212121;
+  border-radius: 30px;
+  align-items: center;
+  color: #212121;
+}
+
+
+
+
+
+
+
+
