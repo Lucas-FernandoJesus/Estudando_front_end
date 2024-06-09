@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 601px) and (max-width: 3764px) {
+@media (min-width: 601px) and (max-width: 10000px) {
   #image_hidden{
     display: none;
   }
